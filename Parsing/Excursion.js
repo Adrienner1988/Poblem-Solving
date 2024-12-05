@@ -24,8 +24,14 @@ const excursion = {
 };
 
 // Access the name of the excursion.
+console.log(excursion.name);
 // Get the average rating.
+console.log(excursion.ratings.average);
 // Retrieve the location of the second destination.
+console.log(excursion.destinations[1].location);
 // List all activities available at the Tropical Beach.
+console.log(excursion.destinations[0].activities);
 // Find out what languages the guide speaks.
+console.log(excursion.guide.languages);
 // Access the price of the excursion.
+console.log(excursion.price);
